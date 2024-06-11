@@ -11,7 +11,6 @@ Encapsulates object interaction logic in a single place.
 Promotes loose coupling between objects.
 Enhances code maintainability and scalability.
 
-
 // Create instances of colleagues and mediator
 ConcreteMediator mediator = new ConcreteMediator();
 ConcreteColleague1 colleague1 = new ConcreteColleague1(mediator);
